@@ -12,7 +12,7 @@ For this job i used External Libraries:
 
 Retrofit:
 
-![image](https://user-images.githubusercontent.com/66301432/113768357-6db50d00-9728-11eb-9202-85685a58ec74.png)
+![image](https://user-images.githubusercontent.com/66301432/113768680-c7b5d280-9728-11eb-9db0-1907fb4783a4.png)
 
 Glide:
 
