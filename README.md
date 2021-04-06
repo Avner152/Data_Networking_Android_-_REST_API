@@ -7,6 +7,17 @@ In this application I used I received data of json file from server-side into a 
 
 ![image](https://user-images.githubusercontent.com/66301432/113766208-d6e75100-9725-11eb-95a5-53dc6bffac40.png)
 
+
+For this job i used External Libraries:
+
+Retrofit:
+![image](https://user-images.githubusercontent.com/66301432/113767950-f1bac500-9727-11eb-8734-c12d96546c3d.png)
+
+Glide:
+
+![image](https://user-images.githubusercontent.com/66301432/113768209-41998c00-9728-11eb-841a-82632af8669d.png)
+
+
 The URL I used: https://reqres.in/api/users
 which contains a user Object with 4 attributes, a list Of Data, and another object "support" that i've decided to not include.
 
