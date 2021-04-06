@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_gradient"
+    tools:context=".activities.MainActivity">
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rest Api"
+        android:textSize="60dp"
+        android:textAllCaps="true"
+        android:fontFamily="@font/th"
+        android:textColor="@color/white"
+        android:alpha="0.45"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/title_tv"
+        android:layout_centerInParent="true"
+        >
+    <TextView
+        android:id="@+id/getID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_tv"
+        android:layout_margin="10dp"
+
+        android:text="Welcome to my first REST architecture page. In this application I've used GET \\ POST etc. methods to reach JSON Data from server side using Retrofit which consumes RESTful web services. All into a RecyclerView.\n
+        \nOther Used Libraries: Glide."
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        android:layout_gravity="center_horizontal"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/getID"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+    <Button
+        android:id="@+id/simpleGET_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/pink"
+        android:text="Simple Example (LIST)"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+
+        />
+        <Button
+        android:id="@+id/GET_with_Glide_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/orange"
+        android:layout_centerHorizontal="true"
+        android:text="Example with Glide (Object)"
+        android:textSize="30dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        />
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

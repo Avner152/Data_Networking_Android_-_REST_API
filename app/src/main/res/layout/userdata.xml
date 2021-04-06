@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    >
+    <ImageView
+        android:id="@+id/user_id_img"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/profile"
+        android:layout_margin="15dp"
+        />
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/user_id_img"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/user_data_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="id: "
+            />
+        <LinearLayout
+            android:id="@+id/user_layoutAbove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/user_data_first_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="First: "
+                />
+            <TextView
+                android:id="@+id/user_data_last_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last: "
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearBelow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_layoutAbove"
+            >
+
+            <TextView
+                android:id="@+id/user_data_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: "
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
