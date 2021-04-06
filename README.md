@@ -8,7 +8,6 @@ In this application I used I received data of json file from server-side into a 
 ![image](https://user-images.githubusercontent.com/66301432/113766208-d6e75100-9725-11eb-95a5-53dc6bffac40.png)
 
 The URL I used: https://reqres.in/api/users
-
 which contains a user Object with 4 attributes, a list Of Data, and another object "support" that i've decided to not include.
 
 POST method with thier list and anpther Data detail of mine
