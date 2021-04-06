@@ -11,7 +11,8 @@ In this application I used I received data of json file from server-side into a 
 For this job i used External Libraries:
 
 Retrofit:
-![image](https://user-images.githubusercontent.com/66301432/113767950-f1bac500-9727-11eb-8734-c12d96546c3d.png)
+
+![image](https://user-images.githubusercontent.com/66301432/113768357-6db50d00-9728-11eb-9202-85685a58ec74.png)
 
 Glide:
 
