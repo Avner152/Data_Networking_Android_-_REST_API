@@ -1,4 +1,4 @@
-# REST-API-example
+#Data networking in Android - REST-API
 A basic example for demonstrating HTTP's basic methods in Android.
 
 ![rest](https://user-images.githubusercontent.com/66301432/113766220-d949ab00-9725-11eb-8703-624d97959d95.jpg)
